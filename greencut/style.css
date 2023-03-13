@@ -1,14 +1,14 @@
 @font-face {
-	font-family: Baumans;
-	src: local('font\Baumans-Regular.ttf') format('.ttf');
+	font-family: 'Changa', cursive;
+	src: local('font/Changa-VariableFont_wght.ttf')
 }
 
 
 /* Stile del Jumbotron */
 .jumbotron {
-	background-image: url('https://via.placeholder.com/1500x600.png?text=Immagine+di+Sfondo');
+	background-image: url("Images/sfondo.jpg");
 	background-size: cover;
-	color: #fff;
+	color: #19381f;
 	height: 600px;
 	text-align: center;
 }
@@ -33,8 +33,10 @@
 /* Stile della navbar */
 .navbar-brand {
 
-	font-family: Baumans;
-	font-size: 1.5rem;
+	font-family: Changa, cursive;
+	font-weight: 400;
+
+
 }
 
 /* Stile del bottone Acquista */
