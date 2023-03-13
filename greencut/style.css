@@ -3,7 +3,6 @@
 	src: local('font/Changa-VariableFont_wght.ttf')
 }
 
-
 /* Stile del Jumbotron */
 .jumbotron {
 	background-image: url("Images/sfondo.jpg");
@@ -33,9 +32,7 @@
 /* Stile della navbar */
 .navbar-brand {
 
-	font-family: Changa, cursive;
-	font-weight: 400;
-
+	font-size: x-large;
 
 }
 
