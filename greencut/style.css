@@ -1,5 +1,5 @@
 @font-face {
-	font-family: Baumans;
+	font-family: 'Antonio', sans-serif;
 	src: local('font\Baumans-Regular.ttf') format('.ttf');
 }
 
@@ -11,29 +11,32 @@
 	color: #fff;
 	height: 600px;
 	text-align: center;
+	font-family: 'Antonio', sans-serif;
 }
 
 /* Stile del titolo del Jumbotron */
 .jumbotron h1 {
 	font-size: 4rem;
-	margin-top: 200px;
+	font-family: 'Antonio', sans-serif;
 }
 
 /* Stile della sezione Prodotti */
 .container {
 	margin-top: 50px;
+	font-family: 'Antonio', sans-serif;
 }
 
 /* Stile della card dei prodotti */
 .card {
 	margin-bottom: 20px;
 	background-color: #4c934c;
+	font-family: 'Antonio', sans-serif;
 }
 
 /* Stile della navbar */
 .navbar-brand {
 
-	font-family: Baumans;
+	font-family: 'Antonio', sans-serif;
 	font-size: 1.5rem;
 }
 
