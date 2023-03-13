@@ -1,1 +1,76 @@
 <div class="p-3 bg- text-black text-center" >
+color: rgb(26, 117, 159);
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Greencut - Vendita di Tosaerba</title>
+	<!-- Link al file CSS di Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Link al file CSS personalizzato -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Barra di navigazione -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">Greencut</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Home</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Prodotti</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Contatti</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+	<!-- Jumbotron -->
+	<div class="jumbotron">
+		<h1 class="display-4">Benvenuti in Greencut</h1>
+		<p class="lead">Siamo specializzati nella vendita di tosaerba di alta qualità per il vostro giardino.</p>
+		<hr class="my-4">
+		<p>Offriamo una vasta gamma di prodotti a prezzi competitivi.</p>
+		<a class="btn btn-primary btn-lg" href="#" role="button">Scopri di più</a>
+	</div>
+	<!-- Sezione Prodotti -->
+	<div class="container">
+		<h2 class="text-center my-5">Prodotti in Vetrina</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card">
+				  <img src="https://via.placeholder.com/300x200.png?text=Prodotto1" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Tosaerba Modello X</h5>
+				    <p class="card-text">Descrizione del prodotto. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				    <a href="#" class="btn btn-primary">Acquista</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+				  <img src="https://via.placeholder.com/300x200.png?text=Prodotto2" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Tosaerba Modello </h5>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  </div>
+</body>
+</html>

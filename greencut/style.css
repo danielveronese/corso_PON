@@ -1,5 +1,62 @@
-.title{
-align-self: center;
-background-color: green;
-border-bottom: 5px;
+@font-face {
+	font-family: Baumans;
+	src: local('font\Baumans-Regular.ttf') format('.ttf');
+}
+
+
+/* Stile del Jumbotron */
+.jumbotron {
+	background-image: url('https://via.placeholder.com/1500x600.png?text=Immagine+di+Sfondo');
+	background-size: cover;
+	color: #fff;
+	height: 600px;
+	text-align: center;
+}
+
+/* Stile del titolo del Jumbotron */
+.jumbotron h1 {
+	font-size: 4rem;
+	margin-top: 200px;
+}
+
+/* Stile della sezione Prodotti */
+.container {
+	margin-top: 50px;
+}
+
+/* Stile della card dei prodotti */
+.card {
+	margin-bottom: 20px;
+	background-color: #4c934c;
+}
+
+/* Stile della navbar */
+.navbar-brand {
+
+	font-family: Baumans;
+	font-size: 1.5rem;
+}
+
+/* Stile del bottone Acquista */
+.btn-primary {
+	background-color: #eee82c;
+	border-color: #eee82c;
+	color: #19381f;
+}
+
+/* Stile del bottone Acquista al passaggio del mouse */
+.btn-primary:hover {
+	background-color: #218838;
+	border-color: #1e7e34;
+}
+
+/* Stile del link attivo nella navbar */
+.navbar-nav .active>.nav-link {
+	color: #eee82c;
+	font-weight: bold;
+}
+
+#nav-bar {
+	background-color: #4c934c;
+	box-shadow: 2px 2px 15px;
 }
