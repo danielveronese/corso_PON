@@ -7,14 +7,13 @@
 
 /* Stile del Jumbotron */
 .jumbotron {
-	background: url("Images/32742807_2203.i504.042.S.m005.c12.isometric\ grass\ lawn\ mower\ infographics.jpg") no-repeat center center;
+	background: url("Images/Erba-Gargano.jpg") no-repeat center center;
 	background-size: cover;
 	height: auto;
 	font-family: Baumans;
-	color: #283618;
-	height: 600px;
+	color: #ffffff;
+	height: 500px;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Stile del titolo del Jumbotron */
@@ -30,7 +29,7 @@
 /* Stile della card dei prodotti */
 .card {
 	margin-bottom: 20px;
-	background-color: #4c934c;
+	background-color: #47b347;
 	color: #eee82c;
 }
 
@@ -38,9 +37,9 @@
 .navbar-brand {
 	font-family: Baumans;
 	font-size: 250%;
-	color: #fefae0;
-	margin-right: 10%;
-	margin-left: 10%;
+	color: #ffffff;
+	margin-right: 2%;
+	margin-left: 2%;
 
 
 }
@@ -54,8 +53,9 @@
 
 /* Stile del bottone Acquista al passaggio del mouse */
 .btn-primary:hover {
-	background-color: #218838;
-	border-color: #1e7e34;
+	background-color: #1e1bb3;
+	border-color: #181f88;
+	color: aliceblue;
 }
 
 /* Stile del link attivo nella navbar */
@@ -67,8 +67,8 @@
 }
 
 #nav-bar {
-	background-color: #606c38;
-	box-shadow: 2px 2px 15px;
+	background-color: #68961e;
+	box-shadow: 2px 2px 2px;
 }
 
 #icons {
