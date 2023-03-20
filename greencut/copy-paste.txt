@@ -117,3 +117,7 @@ color: rgb(26, 117, 159);
 	</div>
 	<!-- Copyright -->
 </footer>
+
+	<p class="lead">Siamo specializzati nella vendita di tosaerba di alta qualità per il vostro giardino.</p>
+		<p>Offriamo una vasta gamma di prodotti a prezzi competitivi.</p>
+		<a class="btn btn-primary btn-lg" href="prodotti.html" role="button">Scopri di più</a>

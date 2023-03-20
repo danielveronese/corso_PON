@@ -44,6 +44,24 @@
 
 }
 
+#nav-home {
+
+	margin-left: 20%;
+
+}
+
+#nav-prodotti {
+
+	margin-left: 20%;
+
+}
+
+#nav-contatti {
+
+	margin-left: 20%;
+
+}
+
 /* Stile del bottone Acquista */
 .btn-primary {
 	background-color: #eee82c;
