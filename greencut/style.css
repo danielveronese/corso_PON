@@ -1,13 +1,17 @@
 @font-face {
-	font-family: 'Changa', cursive;
-	src: local('font/Changa-VariableFont_wght.ttf')
+	font-family: Baumans;
+	src: url('font/Baumans-Regular.ttf');
+	font-weight: 400;
+
 }
 
 /* Stile del Jumbotron */
 .jumbotron {
-	background-image: url("Images/sfondo.jpg");
+	background: url("Images/32742807_2203.i504.042.S.m005.c12.isometric\ grass\ lawn\ mower\ infographics.jpg") no-repeat center center;
 	background-size: cover;
-	color: #19381f;
+	height: auto;
+	font-family: Baumans;
+	color: #283618;
 	height: 600px;
 	text-align: center;
 }
@@ -15,7 +19,6 @@
 /* Stile del titolo del Jumbotron */
 .jumbotron h1 {
 	font-size: 4rem;
-	margin-top: 200px;
 }
 
 /* Stile della sezione Prodotti */
@@ -27,12 +30,17 @@
 .card {
 	margin-bottom: 20px;
 	background-color: #4c934c;
+	color: #eee82c;
 }
 
 /* Stile della navbar */
 .navbar-brand {
+	font-family: Baumans;
+	font-size: 250%;
+	color: #fefae0;
+	margin-right: 10%;
+	margin-left: 10%;
 
-	font-size: x-large;
 
 }
 
@@ -51,11 +59,20 @@
 
 /* Stile del link attivo nella navbar */
 .navbar-nav .active>.nav-link {
-	color: #eee82c;
+	color: #fefae0;
 	font-weight: bold;
+	font-family: Baumans;
+	font-size: 130%;
 }
 
 #nav-bar {
-	background-color: #4c934c;
+	background-color: #606c38;
 	box-shadow: 2px 2px 15px;
+}
+
+#icons {
+
+	margin-right: 40px;
+
+
 }
